@@ -1,0 +1,4241 @@
+/*body{
+    /*width: 95%;
+    height: 100%;
+}
+*/
+header
+{
+    margin-top: -1rem;
+    width: 85.7rem;
+    height: 8rem;
+    background-color: #ebe4e4;
+    margin-left: -1rem;
+}
+
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+header .container .content1
+{
+    width: 5rem;
+    margin-left: 1rem;
+}
+
+header .container .content1 h1 a
+{
+    color: rgb(226, 130, 13);
+    list-style: none;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+header .container .content1 h1 a strong
+{
+    color: rgb(219, 149, 161);
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+header .container .content2
+{
+    width: 25rem;
+    margin-right: 7rem;
+}
+
+header .container .content2 nav ul 
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: -1rem;
+}
+
+header .container .content2 nav ul li
+{
+    list-style: none;
+}
+
+header .container .content2 nav ul li a
+{
+    text-decoration: none;
+    width: 5rem;
+    color: red;
+}
+
+header .container .content2 nav ul li a:hover
+{
+    color: rgb(25, 175, 175);
+}
+
+.menu .image {
+    position: absolute;
+    top: 3rem;
+    left: 80rem;
+    display: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.menu .image img
+{
+  width: 1.2rem;
+  height: 1rem;
+  color: black;
+}
+
+.part1
+{
+    margin-bottom: 27.5rem;
+}
+
+.part1 .container .image
+{
+    width: 100%;
+    height: 8rem;
+}
+
+.part1 .container .image img
+{
+    width: 86.9rem;
+    margin-left: -2rem;
+}
+
+.part1 .container .content
+{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+}
+
+.part1 .container .content .text
+{
+    text-align: center;
+}
+
+.part1 .container .content .text h1
+{
+    color: rgb(204, 130, 142);
+    font-size: 3rem;
+    font-style: normal;
+    width: 30rem;
+}
+
+.part1 .container .content .text h1 strong
+{
+    font-style: italic;
+    color: rgb(226, 130, 13);
+}
+
+.part1 .container .content .text p
+{
+    width: 30rem;
+    font-size: 1rem;
+    font-style: oblique;
+    height: 3rem;
+}
+
+.part2
+{
+    width: 86.9rem;
+    margin-left: -2rem;
+    height: 60rem;
+    text-align: center;
+    background-color: rgb(99, 99, 86);
+    margin-bottom: -1.5rem;
+}
+
+.part2 .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part2 .container a
+{
+    text-decoration: none;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border-color: none;
+    color: #fff;
+    background-color: rgb(218, 64, 8);
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    border-radius: 5px;
+}
+
+.part2 .container a:hover
+{
+    color: rgb(218, 64, 8);
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+.part2 .container .content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.part2 .container .content .image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.part2 .container .content .image img
+{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: -1rem;
+}
+
+/*img*/
+
+.part2 .container .content .image .img3
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.part2 .container .content .image .img3 .text
+{
+    height: 8rem;
+}
+.part2 .container .content .image .img3 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.part2 .container .content .image .img3 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    font-style: italic;
+}
+
+.part2 .container .content .image .img3 .text p
+{
+    margin-bottom: 0.5rem;
+}
+
+.part2 .container .content .image .img3 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img4*/
+
+.part2 .container .content .image .img4
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.part2 .container .content .image .img4 .text
+{
+    height: 8rem;
+}
+.part2 .container .content .image .img4 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.part2 .container .content .image .img4 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.part2 .container .content .image .img4 .text p
+{
+    margin-bottom: 0rem;
+}
+
+.part2 .container .content .image .img4 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img5*/
+
+.part2 .container .content .image .img5
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.part2 .container .content .image .img5 .text
+{
+    height: 8rem;
+}
+.part2 .container .content .image .img5 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.part2 .container .content .image .img5 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.part2 .container .content .image .img5 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.part2 .container .content .image .img5 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img6*/
+
+.part2 .container .content .image .img6
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.part2 .container .content .image .img6 .text
+{
+    height: 8rem;
+}
+.part2 .container .content .image .img6 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.part2 .container .content .image .img6 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.part2 .container .content .image .img6 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.part2 .container .content .image .img6 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img7*/
+
+.part2 .container .content .image .img7
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.part2 .container .content .image .img7 .text
+{
+    height: 8rem;
+}
+.part2 .container .content .image .img7 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.part2 .container .content .image .img7 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.part2 .container .content .image .img7 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.part2 .container .content .image .img7 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img8*/
+
+.part2 .container .content .image .img8
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.part2 .container .content .image .img8 .text
+{
+    height: 8rem;
+}
+.part2 .container .content .image .img8 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.part2 .container .content .image .img8 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.part2 .container .content .image .img8 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.part2 .container .content .image .img8 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*Part3*/
+
+.part3
+{
+    width: 86.9rem;
+    margin-left: -2rem;
+    height: 25rem;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.part3 .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.part3 .container h2
+{
+    color: #0f0f0f;
+    width: 20rem;
+    padding-top: 1rem;
+    height: 3rem;
+    font-size: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid ;
+    border-color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.part3 .container .content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 3rem;
+}
+
+.part3 .container .content .content1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 25rem;
+}
+
+.part3 .container .content .content1 .surname
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: -1rem;
+}
+
+.part3 .container .content .content1 .surname label
+{
+    color: #000;
+    font-size: 1rem;
+}
+
+.part3 .container .content .content1 input
+{
+    width: 17rem;
+    height: 2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+}
+
+.part3 .container .content .content1 input:focus
+{
+    border: 1px solid black;
+    outline: none;
+}
+
+.part3 .container .content .content1 .surname input::placeholder
+{
+    font-size: 1rem;
+}
+
+.part3 .container .content .content1 .message
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-right: -2rem;
+}
+
+.part3 .container .content .content1 .message textarea
+{
+    font-size: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.part3 .container .content .content1 .message textarea:focus
+{
+    border: 1px solid black;
+    outline: none;
+}
+
+footer
+{
+    width: 86.9rem;
+    margin-left: -2rem;
+    height: 20rem;
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -2rem;
+}
+
+footer h1
+{
+    color: #fff;
+    font-style: italic;
+}
+
+/*man*/
+
+.man1
+{
+    margin-bottom: 26rem;
+}
+.man1 .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.man1 .container .image1,.image2, .image3
+{
+    width: 100%;
+    height: 8rem;
+}
+
+.man1 .container .image1 img
+{
+    height: 35rem;
+    width: 30rem;
+}
+
+.man1 .container .image2 img
+{
+    height: 35rem;
+    width: 28rem;
+}
+
+.man1 .container .image3 img
+{
+    height: 35.2rem;
+    width: 27rem;
+}
+/*man2*/
+.man2
+{
+    width: 86.9rem;
+    margin-left: -2rem;
+    height: 60rem;
+    text-align: center;
+    background-color: rgb(99, 99, 86);
+    margin-bottom: -1.5rem;
+}
+
+.man2 .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.man2 .container a
+{
+    text-decoration: none;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border-color: none;
+    color: #fff;
+    background-color: rgb(218, 64, 8);
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    border-radius: 5px;
+}
+
+.man2.container a:hover
+{
+    color: rgb(218, 64, 8);
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+.man2 .container .content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.man2 .container .content .image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.man2 .container .content .image img
+{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: -1rem;
+}
+
+/*img*/
+
+.man2 .container .content .image .img3
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.man2 .container .content .image .img3 .text
+{
+    height: 8rem;
+}
+.man2 .container .content .image .img3 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.man2 .container .content .image .img3 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    font-style: italic;
+}
+
+.man2 .container .content .image .img3 .text p
+{
+    margin-bottom: 0.5rem;
+}
+
+.man2 .container .content .image .img3 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img4*/
+
+.man2 .container .content .image .img4
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.man2 .container .content .image .img4 .text
+{
+    height: 8rem;
+}
+.man2 .container .content .image .img4 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.man2 .container .content .image .img4 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.man2 .container .content .image .img4 .text p
+{
+    margin-bottom: 0rem;
+}
+
+.man2 .container .content .image .img4 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img5*/
+
+.man2 .container .content .image .img5
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.man2 .container .content .image .img5 .text
+{
+    height: 8rem;
+}
+.man2 .container .content .image .img5 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.man2 .container .content .image .img5 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.man2 .container .content .image .img5 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.man2 .container .content .image .img5 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img6*/
+
+.man2 .container .content .image .img6
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.man2 .container .content .image .img6 .text
+{
+    height: 8rem;
+}
+.man2 .container .content .image .img6 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.man2 .container .content .image .img6 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.man2 .container .content .image .img6 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.man2 .container .content .image .img6 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img7*/
+
+.man2 .container .content .image .img7
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.man2 .container .content .image .img7 .text
+{
+    height: 8rem;
+}
+.man2 .container .content .image .img7 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.man2 .container .content .image .img7 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.man2 .container .content .image .img7 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.man2 .container .content .image .img7 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img8*/
+
+.man2 .container .content .image .img8
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.man2 .container .content .image .img8 .text
+{
+    height: 8rem;
+}
+.man2 .container .content .image .img8 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.man2 .container .content .image .img8 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.man2 .container .content .image .img8 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.man2 .container .content .image .img8 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+
+/*wif1*/
+
+.wif1
+{
+    margin-bottom: 26rem;
+}
+.wif1 .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.wif1 .container .image1,.image2, .image3
+{
+    width: 100%;
+    height: 8rem;
+}
+
+.wif1 .container .image1 img
+{
+    height: 35rem;
+    width: 28.7rem;
+/*clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);*/
+}
+
+.wif1 .container .image2 img
+{
+    height: 35rem;
+    width: 28rem;
+    /*clip-path: polygon(20% 0%, 75% 0, 56% 100%, 0% 100%);*/
+}
+
+.wif1 .container .image3 img
+{
+    height: 35rem;
+    width: 28.7rem;
+    /*clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);*/
+}
+
+.wif2
+{
+    width: 86.9rem;
+    margin-left: -2rem;
+    height: 60rem;
+    text-align: center;
+    background-color: rgb(99, 99, 86);
+    margin-bottom: -1.5rem;
+}
+
+.wif2 .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wif2 .container a
+{
+    text-decoration: none;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border-color: none;
+    color: #fff;
+    background-color: rgb(218, 64, 8);
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    border-radius: 5px;
+}
+
+.wif2 .container a:hover
+{
+    color: rgb(218, 64, 8);
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+.wif2 .container .content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.wif2 .container .content .image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.wif2 .container .content .image img
+{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: -1rem;
+}
+
+/*img*/
+
+.wif2 .container .content .image .img3
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.wif2 .container .content .image .img3 .text
+{
+    height: 8rem;
+}
+.wif2 .container .content .image .img3 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.wif2 .container .content .image .img3 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    font-style: italic;
+}
+
+.wif2 .container .content .image .img3 .text p
+{
+    margin-bottom: 0.5rem;
+}
+
+.wif2 .container .content .image .img3 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img4*/
+
+.wif2 .container .content .image .img4
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.wif2 .container .content .image .img4 .text
+{
+    height: 8rem;
+}
+.wif2 .container .content .image .img4 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.wif2 .container .content .image .img4 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.wif2 .container .content .image .img4 .text p
+{
+    margin-bottom: 0rem;
+}
+
+.wif2 .container .content .image .img4 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img5*/
+
+.wif2 .container .content .image .img5
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.wif2 .container .content .image .img5 .text
+{
+    height: 8rem;
+}
+.wif2 .container .content .image .img5 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.wif2 .container .content .image .img5 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.wif2 .container .content .image .img5 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.wif2 .container .content .image .img5 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img6*/
+
+.wif2 .container .content .image .img6
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.wif2 .container .content .image .img6 .text
+{
+    height: 8rem;
+}
+.wif2 .container .content .image .img6 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.wif2 .container .content .image .img6 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.wif2 .container .content .image .img6 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.wif2 .container .content .image .img6 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img7*/
+
+.wif2 .container .content .image .img7
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.wif2 .container .content .image .img7 .text
+{
+    height: 8rem;
+}
+.wif2 .container .content .image .img7 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.wif2 .container .content .image .img7 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.wif2 .container .content .image .img7 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.wif2 .container .content .image .img7 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+/*img8*/
+
+.wif2 .container .content .image .img8
+{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px #3d3838;
+}
+
+.wif2 .container .content .image .img8 .text
+{
+    height: 8rem;
+}
+.wif2 .container .content .image .img8 .text h3
+{
+    color: rgb(218, 64, 8);
+    margin-bottom: -1.5rem;
+}
+
+.wif2 .container .content .image .img8 .text h5
+{
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.wif2 .container .content .image .img8 .text p
+{
+    width: 15rem;
+    margin-bottom: 0rem;
+}
+
+.wif2 .container .content .image .img8 .text .price
+{
+    color: rgb(161, 51, 10);
+}
+
+
+@media screen and (max-width: 1230px)
+{
+    header
+   {
+      width: 77.5rem;
+      margin-left: -1rem;
+   }
+
+    header .container .content1
+    {
+        position: absolute;
+        top: -0.6rem;
+        left: 30px;
+    }
+    header .container .content2
+    {
+        width: 15rem;
+        margin-left: 48rem;
+        margin-top: 2.5rem;
+    }
+    
+    /*header .container .content2 nav ul
+    
+    {
+      display: flex;
+
+      align-content: center;
+
+      justify-content: center;
+
+      flex-direction: column;
+
+      gap: -0.4rem;
+
+      margin-right: 1rem;
+    } */
+
+   /* header .container .content2 nav ul 
+    {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: -1rem;
+    }*/
+
+
+    /*header .container .content2
+    {
+        top: 4px;
+      left: 0px;
+      position: absolute;
+      background-color: rgba(10, 0, 0, 0.2);
+      backdrop-filter: blur(8px);
+      text-align: center;
+      margin-right: -5rem;
+      width: 8rem;
+      height: 7rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /*margin-left: -11%;
+      transition: all 0.5s ease;
+    }*/
+
+   /* header .container .content2
+    {
+     width: 25rem;
+     margin-right: 7rem;
+    }
+
+   /* .content2 .mobile-menu
+    {
+       margin-left: 0px;
+    }*/
+
+
+    header .container .content2 nav ul
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 3rem;
+    }
+    header .container .content2 nav ul li
+    {
+      margin: 0px 0.5rem;
+    }
+
+    .menu .image {
+        position: absolute;
+        top: 3rem;
+        left: 74rem;
+        display: none;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+    .part1 
+    {
+      margin-bottom: 15.8rem;
+    }
+
+    .part1 .container .image
+    {
+      width: 100%;
+      height: 0rem;
+    }
+
+    .part1 .container .image img
+    {
+      width: 78.5rem;
+      margin-left: -2rem;
+    }
+
+    .part1 .container .content
+    {
+      width: 20rem;
+      height: 20rem;
+      margin-left: 2rem;
+    }
+
+    .part1 .container .content .text
+    {
+      text-align: center;
+    }
+
+    .part1 .container .content .text h1
+    {
+      width: 25rem;
+    }
+
+
+   .part1 .container .content .text p
+    {
+      width: 25rem;
+      height: 3rem;
+    }
+
+    .part2
+    {
+        width: 78.5rem;
+      margin-left: -2rem;
+      height: 60rem;
+      margin-bottom: -1.5rem;
+    }
+
+    .man2
+    {
+        width: 78.5rem;
+      margin-left: -2rem;
+      height: 60rem;
+      margin-bottom: -1.5rem;
+    }
+
+    .wif2
+    {
+        width: 78.5rem;
+      margin-left: -2rem;
+      height: 60rem;
+      margin-bottom: -1.5rem;
+    }
+
+    .part3
+    {
+      width: 78.5rem;
+      margin-left: -2rem;
+      height: 28rem;
+    }
+
+    footer
+    {
+      width: 78.5rem;
+      margin-left: -2rem;
+      height: 20rem;
+      text-align: center;
+    }
+
+    .man1
+    {
+      width: 65rem;
+      margin-bottom: 26rem;
+    }
+
+
+
+    .man1 .container .image1 img
+    {
+      height: 35rem;
+      width: 32rem;
+    }
+
+    .man1 .container .image2 img
+    {
+      height: 35rem;
+      width: 28.5rem;
+    }
+
+    .man1 .container .image3 img
+    {
+      height: 35.2rem;
+      width: 27.5rem;
+    }
+   
+    .wif1
+    {
+      margin-bottom: 26rem;
+      width: 65rem;
+    }
+
+
+    .wif1 .container .image1 img
+    {  
+      height: 35rem;
+      width: 34rem;
+    }
+
+    .wif1 .container .image2 img
+    {
+      height: 35rem;
+      width: 32rem;
+    }
+
+    .wif1 .container .image3 img
+    {
+      height: 35.0rem;
+      width: 22.0rem;
+    }
+
+
+
+    .part3 .container .content .content1 .surname
+    {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .part3 .container .content .content1 .nom
+    {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .part3 .container .content .content1 .mail
+    {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .part3 .container .content .content1 .message
+    {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 1150px){
+
+    header
+   {
+      width: 75.5rem;
+   }
+
+    header .container .content2
+    {
+        width: 15rem;
+        margin-left: 45rem;
+        margin-top: 2.5rem;
+    }
+
+    header .container .content2 nav ul
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    header .container .content2 nav ul li
+    {
+      margin: 0px 0.5rem;
+    }
+
+    .menu .image {
+        position: absolute;
+        top: 3rem;
+        left: 68rem;
+        display: none;
+        color: #000;
+        cursor: pointer;
+    }
+    
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+   .part1 .container .image img
+    {
+        width: 76.5rem;
+        margin-left: -2rem;
+    }
+
+    .part1
+    {
+        margin-bottom: 28.2rem;
+    }
+
+    .part2
+    {
+        width: 76.5rem;
+    }
+
+    .man2
+    {
+        width: 76.5rem;
+    }
+
+    .wif2
+    {
+        width: 76.5rem;
+    }
+
+    .part3
+    {
+        width: 76.5rem;
+        margin-left: -2rem;
+        height: 28rem;
+    }
+
+    
+    footer
+    {
+        width: 76.5rem;
+        margin-left: -2rem;
+        height: 20rem;
+        text-align: center;
+    }
+    
+    .wif1 .container .image1 img
+    {  
+      height: 35rem;
+      width: 32rem;
+    }
+
+    .wif1 .container .image2 img
+    {
+      height: 35rem;
+      width: 26rem;
+    }
+
+    .wif1 .container .image3 img
+    {
+      height: 35.0rem;
+      width: 26rem;
+    }
+
+    .man1
+    {
+      width: 65rem;
+      margin-bottom: 26rem;
+    }
+
+
+
+    .man1 .container .image1 img
+    {
+      height: 35rem;
+      width: 31rem;
+    }
+
+    .man1 .container .image2 img
+    {
+      height: 35rem;
+      width: 27rem;
+    }
+
+    .man1 .container .image3 img
+    {
+      height: 35rem;
+      width: 26rem;
+    }
+
+}
+
+@media screen and (max-width : 1050px) {
+
+    header
+    {
+       width: 66rem;
+    }
+    header .container .content2
+    {
+        width: 15rem;
+        margin-left: 40rem;
+        margin-top: 2.5rem;
+    }
+
+    header .container .content2 nav ul
+    {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /*margin-right: 3rem;*/
+    }
+    header .container .content2 nav ul li
+    {
+      margin: 0px 0.5rem;
+    }
+
+    .menu .image {
+        position: absolute;
+        top: 3rem;
+        left: 62rem;
+        display: none;
+        cursor: pointer;
+    }
+    
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+    .part1 .container .image img
+     {
+         width: 67rem;
+         margin-left: -2rem;
+     }
+
+     .part1 .container .content
+     {
+      width: 30rem;
+      height: 20rem;
+      margin-left: 7rem;
+    }
+ 
+
+ 
+     .part2
+     {
+        width: 67rem;
+        margin-top: -6.3rem;
+     }
+
+     .man2
+     {
+        width: 67rem;
+        margin-top: -6.3rem;
+     }
+
+     .wif2
+     {
+        width: 67rem;
+        margin-top: -6.3rem;
+     }
+ 
+     .part3
+     {
+        width: 67rem;
+         margin-left: -2rem;
+         height: 28rem;
+     }
+
+     .part3 .container .content .content1
+     {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 20rem;
+    }
+ 
+     
+     footer
+     {
+         width: 67rem;
+         margin-left: -2rem;
+         height: 20rem;
+         text-align: center;
+     }
+     
+     .wif1 .container .image1 img
+     {  
+       height: 29rem;
+       width: 24rem;
+     }
+ 
+     .wif1 .container .image2 img
+     {
+       height: 29rem;
+       width: 22rem;
+     }
+ 
+     .wif1 .container .image3 img
+     {
+       height: 29rem;
+       width: 20rem;
+     }
+ 
+         .man1
+     {
+       width: 65rem;
+       margin-bottom: 26rem;
+     }
+ 
+ 
+ 
+     .man1 .container .image1 img
+     {
+       height: 29rem;
+       width: 23.1rem;
+     }
+ 
+     .man1 .container .image2 img
+     {
+       height: 29rem;
+       width: 21.8rem;
+     }
+ 
+     .man1 .container .image3 img
+     {
+       height: 29rem;
+       width: 20.8rem;
+     }
+    
+}
+
+@media screen and (max-width: 900px) {
+    header
+    {
+        width: 57rem;
+    }
+ 
+     header .container .content2
+     {
+         top: 4px;
+       left: 0px;
+       position: absolute;
+       background-color: rgba(10, 0, 0, 0.2);
+       backdrop-filter: blur(8px);
+       text-align: center;
+       margin-right: 5rem;
+       width: 8rem;
+       height: 7rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: all 0.5s ease;
+       margin-left: 43rem;
+       text-align: center;
+       margin-top: -0.3rem;
+     }
+
+     header .container .content2 nav ul
+     {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 2.5rem;
+    }
+
+    .menu .image {
+        position: absolute;
+        top: 3rem;
+        left: 53rem;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+    .part1 .container .image img
+     {
+         width: 58rem;
+         margin-left: -2rem;
+     }
+
+     .part1 .container .content
+     {
+      width: 30rem;
+      height: 20rem;
+      margin-left: 15rem;
+    }
+ 
+    .part1 .container .content .text h1
+    {
+      color: rgb(204, 130, 142);
+      font-size: 3rem;
+      font-style: normal;
+      width: 30rem;
+      margin-bottom: -0rem;
+    }
+ 
+     .part2
+     {
+        width: 58rem;
+        margin-top: -12.5rem;
+     }
+
+     .part2 .container .content .image
+     {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+     }
+ 
+     .part3
+     {
+         width: 58rem;
+         margin-left: -2rem;
+         height: 28rem;
+     }
+
+     .part3 .container .content .content1
+     {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 15rem;
+    }
+ 
+     
+     footer
+     {
+         width: 58rem;
+         margin-left: -2rem;
+         height: 20rem;
+         text-align: center;
+     }
+     
+     .wif1 .container .image1 img
+     {  
+       height: 29rem;
+       width: 28rem;
+       margin-left: -1rem;
+     }
+
+     .wif1 .container .image2 img
+     {
+         height: 29rem;
+         width: 29.5rem;
+         margin-left: -6rem;
+    }
+        
+    .wif1 .container .image3
+    {
+        display: none;
+    }
+    
+     /*.wif1 .container .image3 img
+     {
+       height: 29rem;
+       width: 20rem;
+     }*/
+ 
+    .man1
+     {
+       width: 60rem;
+       margin-bottom: 26rem;
+     }
+ 
+     .man1 .container
+     {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       gap: -2rem;
+    }
+ 
+     .man1 .container .image1 img
+     {
+        height: 29rem;
+        width: 30rem;
+        margin-left: -1rem;
+     }
+
+     .man1 .container .image2
+     {
+        display: none;
+     }
+ 
+     .man2
+     {
+         width: 58rem;
+         margin-top: -6.3rem;
+    }
+
+    .man2 .container .content .image
+    {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 1rem;
+    } 
+ 
+     .man1 .container .image3 img
+     {
+        height: 29rem;
+        width: 30rem;
+        margin-left: -4rem;
+   
+     }
+
+     .wif2
+     {
+        width: 58rem;
+        margin-top: -6.3rem;
+     }
+
+     .wif2 .container .content .image
+     {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 790px) {
+
+    header
+    {
+        width: 50rem;
+    }
+ 
+    header .container .content2
+     {
+         position: absolute;
+         width: 25rem;
+         margin-left: 38rem;
+         top: -0.6rem;
+     }
+ 
+    header .container .content2 nav ul
+     {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 2.5rem;
+     }
+
+
+     header .container .content2
+     {
+         top: 4px;
+       left: 0px;
+       position: absolute;
+       background-color: rgba(10, 0, 0, 0.2);
+       backdrop-filter: blur(8px);
+       text-align: center;
+       margin-right: 5rem;
+       width: 8rem;
+       height: 7rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: all 0.5s ease;
+     }
+
+     .menu .image {
+        position: absolute;
+        top: 3rem;
+        left: 45rem;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+     .part1 .container .image img
+     {
+         width: 51rem;
+         margin-left: -2rem;
+    }
+
+     .part1 .container .content
+     {
+      width: 30rem;
+      height: 20rem;
+      margin-left: 10rem;
+    }
+ 
+    .part1 .container .content .text h1
+    {
+      color: rgb(204, 130, 142);
+      font-size: 3rem;
+      font-style: normal;
+      width: 30rem;
+      margin-bottom: -0rem;
+    }
+ 
+    .part2
+    {
+        width: 51rem;
+        margin-top: -17.2rem;
+    }
+
+     .part2 .container .content .image
+     {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+     }
+ 
+     .part3
+     {
+         width: 51rem;
+         margin-left: -2rem;
+         height: 28rem;
+    }
+
+     .part3 .container .content .content1
+     {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 9rem;
+    }
+ 
+     
+    footer
+    {
+        width: 51rem;
+        margin-left: -2rem;
+        height: 20rem;
+        text-align: center;
+    }
+     
+     .wif1 .container .image1 img
+     {  
+       height: 29rem;
+       width: 25rem;
+       margin-left: -1rem;
+     }
+
+     .wif1 .container .image2 img
+     {
+         height: 28.9rem;
+         width: 25.5rem;
+         margin-left: -9rem;
+    }
+        
+    .wif1 .container .image3
+    {
+        display: none;
+    }
+    
+     /*.wif1 .container .image3 img
+     {
+       height: 29rem;
+       width: 20rem;
+     }*/
+ 
+    .man1
+     {
+       width: 60rem;
+       margin-bottom: 26rem;
+     }
+ 
+     .man1 .container
+     {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       gap: -2rem;
+    }
+ 
+     .man1 .container .image1 img
+     {
+        height: 29rem;
+        width: 25rem;
+        margin-left: -1rem;
+     }
+
+     .man1 .container .image2
+     {
+        display: none;
+     }
+ 
+     .man2
+     {
+         width: 51rem;
+         margin-top: -6.3rem;
+    }
+
+    .man2 .container .content .image
+    {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 1rem;
+    } 
+ 
+     .man1 .container .image3 img
+     {
+        height: 29rem;
+        width: 25rem;
+        margin-left: -6rem;
+        
+     }
+
+     .wif2
+     {
+        width: 51rem;
+        margin-top: -6.3rem;
+     }
+
+     .wif2 .container .content .image
+     {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    header
+    {
+        width: 45rem;
+    }
+
+    header .container .content1
+    {
+        position: absolute;
+        top: -0.6rem;
+        left: 40px;
+    }
+ 
+    header .container .content2 nav ul
+     {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 2.5rem;
+     }
+
+ 
+     header .container .content2
+     {
+         top: 4px;
+       left: -6.8rem;
+       position: absolute;
+       background-color: rgba(10, 0, 0, 0.2);
+       backdrop-filter: blur(8px);
+       text-align: center;
+       margin-right: 5rem;
+       width: 8rem;
+       height: 7rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: all 0.5s ease;
+     }
+
+     .menu .image {
+        position: absolute;
+        top: 3rem;
+        left: 40rem;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+     .part1 .container .image img
+     {
+         width: 46rem;
+         margin-left: -2rem;
+    }
+
+     .part1 .container .content
+     {
+      width: 25rem;
+      height: 20rem;
+      margin-left: 9rem;
+    }
+
+   .part1 .container .content .text
+    {
+     text-align: center;
+     width: 25rem;
+    }
+
+    .part1 .container .content .text h1
+    {
+        color: rgb(204, 130, 142);
+        font-size: 2.5rem;
+        font-style: normal;
+        width: 23rem;
+        margin-bottom: -0rem;
+    }
+
+    .part1 .container .content .text p
+    {
+        width: 30rem;
+        height: 2.5rem;
+        margin-left: -2rem;
+    }
+ 
+    .part2
+    {
+        width: 46rem;
+        margin-top: -20.2rem;
+    }
+
+     .part2 .container .content .image
+     {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+     }
+
+     .part2 .container .content .image img
+     {
+        width: 13rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -1rem;
+    }
+
+    .part2 .container .content .image .img3
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+
+
+    .part2 .container .content .image .img4
+    {
+        background-color: #fff;
+
+        box-shadow: 2px 2px 5px 5px #3d3838;
+
+        width: 13rem;
+
+    }
+
+    .part2 .container .content .image .img5
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+    .part2 .container .content .image .img5 .text p
+    {
+        width: 12rem;
+        margin-bottom: 0rem;
+    }
+
+    .part2 .container .content .image .img6
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+    .part2 .container .content .image .img7
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+
+    .part2 .container .content .image .img8
+    {
+       background-color: #fff;
+
+       box-shadow: 2px 2px 5px 5px #3d3838;
+
+       width: 13rem;
+
+    }
+ 
+     .part3
+     {
+        width: 46rem;
+         margin-left: -2rem;
+         height: 28rem;
+    }
+
+     .part3 .container .content .content1
+     {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 3rem;
+    }
+ 
+     
+    footer
+    {
+        width: 46rem;
+        margin-left: -2rem;
+        height: 20rem;
+        text-align: center;
+    }
+     
+    .wif1
+     {
+       width: 60rem;
+       margin-bottom: 40rem;
+     }
+     .wif1 .container .image1 img
+     {  
+        height: 29rem;
+        width: 22.9rem;
+        margin-left: -1rem;
+     }
+
+     .wif1 .container .image2 img
+     {
+        height: 29rem;
+        width: 23rem;
+        margin-left: -9rem; 
+    }
+        
+    .wif1 .container .image3
+    {
+        display: none;
+    }
+ 
+    .man1
+     {
+       width: 60rem;
+       margin-bottom: 26rem;
+     }
+ 
+     .man1 .container
+     {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       gap: -2rem;
+    }
+ 
+     .man1 .container .image1 img
+     {
+        height: 29rem;
+        width: 22.9rem;
+        margin-left: -1rem;
+     }
+
+     .man1 .container .image2
+     {
+        display: none;
+     }
+
+     .man1 .container .image3 img
+     {
+        height: 29rem;
+        width: 23rem;
+        margin-left: -9rem;   
+     }
+ 
+     .man2
+     {
+         width: 46rem;
+         margin-top: -6.3rem;
+     }
+
+     .man2 .container .content .image img
+     {
+        width: 13rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -1rem;
+    }
+
+    .man2 .container .content .image .img3
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+
+
+    .man2 .container .content .image .img4
+    {
+        background-color: #fff;
+
+        box-shadow: 2px 2px 5px 5px #3d3838;
+
+        width: 13rem;
+
+    }
+
+    .man2 .container .content .image .img5
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+    .man2 .container .content .image .img5 .text p
+    {
+        width: 12rem;
+        margin-bottom: 0rem;
+    }
+
+    .man2 .container .content .image .img6
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+    .man2 .container .content .image .img7
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+
+    .man2 .container .content .image .img8
+    {
+       background-color: #fff;
+
+       box-shadow: 2px 2px 5px 5px #3d3838;
+
+       width: 13rem;
+
+    }
+    
+
+    .man2 .container .content .image
+    {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 1rem;
+    } 
+
+    .wif2
+    {
+        width: 46rem;
+        margin-top: -20.2rem;
+    }
+
+     .wif2 .container .content .image
+     {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+     }
+
+     .wif2 .container .content .image img
+     {
+        width: 13rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -1rem;
+    }
+
+    .wif2 .container .content .image .img3
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+
+
+    .wif2 .container .content .image .img4
+    {
+        background-color: #fff;
+
+        box-shadow: 2px 2px 5px 5px #3d3838;
+
+        width: 13rem;
+
+    }
+
+    .wif2 .container .content .image .img5
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+    .wif2 .container .content .image .img5 .text p
+    {
+        width: 12rem;
+        margin-bottom: 0rem;
+    }
+
+    .wif2 .container .content .image .img6
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+    .wif2 .container .content .image .img7
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 13rem;
+    }
+
+
+    .wif2 .container .content .image .img8
+    {
+       background-color: #fff;
+
+       box-shadow: 2px 2px 5px 5px #3d3838;
+
+       width: 13rem;
+
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    header
+    {
+        width: 38rem;
+    }
+
+    header .container .content1
+    {
+        position: absolute;
+        top: -0.6rem;
+        left: 45px;
+    }
+ 
+    header .container .content2
+     {
+         position: absolute;
+         width: 25rem;
+         margin-left: 26rem;
+         top: -0.6rem;
+     }
+ 
+    header .container .content2 nav ul
+     {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 2.5rem;
+     }
+
+     .content2 .mobile-menu
+    {
+       margin-left: 0px;
+    }
+ 
+     header .container .content2
+     {
+        top: 4px;
+        left: -13.3rem;
+       position: absolute;
+       background-color: rgba(10, 0, 0, 0.2);
+       backdrop-filter: blur(8px);
+       text-align: center;
+       margin-right: 5rem;
+       width: 8rem;
+       height: 7rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: all 0.5s ease;
+     }
+
+     .menu .image {
+        position: absolute;
+        top: 3rem;
+        left: 35rem;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+     .part1 .container .image img
+     {
+         width: 39rem;
+         margin-left: -2rem;
+    }
+
+     .part1 .container .content
+     {
+      width: 25rem;
+      height: 20rem;
+      margin-left: 9rem;
+    }
+
+   .part1 .container .content .text
+    {
+     text-align: center;
+     width: 25rem;
+    }
+
+    .part1 .container .content .text h1
+    {
+        color: rgb(204, 130, 142);
+        font-size: 2.2rem;
+        font-style: normal;
+        width: 20rem;
+        margin-bottom: -1rem;
+    }
+
+    .part1 .container .content .text p
+    {
+        width: 28.9rem;
+        height: 2.2rem;
+        margin-left: -5rem;
+      }
+ 
+    .part2
+    {
+        width: 39rem;
+        margin-left: -2rem;
+        height: 160rem;
+        text-align: center;
+        background-color: rgb(99, 99, 86);
+        margin-bottom: -1.5rem;
+        margin-top: -24.8rem;
+    }
+
+     .part2 .container .content .image
+     {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+     }
+
+     .part2 .container .content .image img
+     {
+        width: 13rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -1rem;
+    }
+
+    .part2 .container .content .image .img3
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 15rem;
+    }
+
+
+
+    .part2 .container .content .image .img4
+    {
+        background-color: #fff;
+
+        box-shadow: 2px 2px 5px 5px #3d3838;
+
+        width: 15rem;
+
+    }
+
+    .part2 .container .content .image .img5
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 15rem;
+    }
+
+    .part2 .container .content .image .img5 .text p
+    {
+        width: 13rem;
+        margin-bottom: 0rem;
+    }
+
+    .part2 .container .content .image .img6
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 15rem;
+    }
+
+    .part2 .container .content .image .img7
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 15rem;
+    }
+
+
+    .part2 .container .content .image .img8
+    {
+       background-color: #fff;
+
+       box-shadow: 2px 2px 5px 5px #3d3838;
+
+       width: 15rem;
+
+    }
+ 
+    .part3
+    {
+        width: 39rem;
+        margin-left: -2rem;
+        height: 43rem;
+    }
+
+
+    .part3 .container .content .content1
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 3rem;
+      }
+ 
+     
+    footer
+    {
+        width: 39rem;
+        margin-left: -2rem;
+        height: 20rem;
+        text-align: center;
+    }
+     
+    .wif1
+     {
+       width: 60rem;
+       margin-bottom: 40rem;
+     }
+     .wif1 .container .image1 img
+     {  
+        height: 22rem;
+        width: 19rem;
+        margin-left: -1rem;
+     }
+
+     .wif1 .container .image2 img
+     {
+        height: 22rem;
+        width: 19rem;
+        margin-left: -12rem;  
+    }
+        
+    .wif1 .container .image3
+    {
+        display: none;
+    }
+ 
+    .man1
+     {
+       width: 60rem;
+       margin-bottom: 26rem;
+     }
+ 
+     .man1 .container
+     {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       gap: -2rem;
+    }
+ 
+     .man1 .container .image1 img
+     {
+        height: 22rem;
+        width: 19rem;
+        margin-left: -1rem;
+     }
+
+     .man1 .container .image2
+     {
+        display: none;
+     }
+
+     .man1 .container .image3 img
+     {
+        height: 22rem;
+        width: 19rem;
+        margin-left: -12rem;   
+     }
+ 
+     .man2
+     {
+         width: 39rem;
+         margin-left: -2rem;
+         height: 160rem;
+         text-align: center;
+         background-color: rgb(99, 99, 86);
+         margin-bottom: -1.5rem;
+         margin-top: -13.2rem;
+     }
+ 
+      .man2 .container .content .image
+      {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+      }
+ 
+      .man2 .container .content .image img
+      {
+         width: 13rem;
+         height: 15rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+     }
+ 
+     .man2 .container .content .image .img3
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 15rem;
+     }
+ 
+     .man2 .container .content .image .img3 img 
+     {
+        width: 15rem;
+     }
+ 
+     .man2 .container .content .image .img4
+     {
+         background-color: #fff;
+ 
+         box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+         width: 15rem;
+ 
+     }
+
+     .man2 .container .content .image .img4 img 
+     {
+        width: 15rem;
+     }
+ 
+     .man2 .container .content .image .img5
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 15rem;
+     }
+
+     .man2 .container .content .image .img5 img 
+     {
+        width: 15rem;
+     }
+ 
+     .man2 .container .content .image .img5 .text p
+     {
+         width: 13rem;
+         margin-bottom: 0rem;
+     }
+ 
+     .man2 .container .content .image .img6
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 15rem;
+     }
+
+     .man2 .container .content .image .img6 img 
+     {
+        width: 15rem;
+     }
+ 
+     .man2 .container .content .image .img7
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 15rem;
+     }
+
+     .man2 .container .content .image .img7 img 
+     {
+        width: 15rem;
+     }
+ 
+ 
+     .man2 .container .content .image .img8
+     {
+        background-color: #fff;
+ 
+        box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+        width: 15rem;
+ 
+     }
+
+     .man2 .container .content .image .img8 img 
+     {
+        width: 15rem;
+     }
+
+
+     .wif2
+     {
+         width: 39rem;
+         margin-left: -2rem;
+         height: 160rem;
+         text-align: center;
+         background-color: rgb(99, 99, 86);
+         margin-bottom: -1.5rem;
+         margin-top: -27.2rem;
+     }
+ 
+      .wif2 .container .content .image
+      {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: 1rem;
+      }
+ 
+      .wif2 .container .content .image img
+      {
+         width: 13rem;
+         height: 15rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+     }
+ 
+     .wif2 .container .content .image .img3
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 15rem;
+     }
+
+     .wif2 .container .content .image .img3 img 
+     {
+        width: 15rem;
+     }
+ 
+     .wif2 .container .content .image .img4
+     {
+         background-color: #fff;
+ 
+         box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+         width: 15rem;
+
+     }
+
+     .wif2 .container .content .image .img4 img 
+     {
+        width: 15rem;
+     }
+ 
+     .wif2 .container .content .image .img5
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 15rem;
+     }
+
+     .wif2 .container .content .image .img5 img 
+     {
+        width: 15rem;
+     }
+ 
+     .wif2 .container .content .image .img5 .text p
+     {
+         width: 13rem;
+         margin-bottom: 0rem;
+     }
+ 
+     .wif2 .container .content .image .img6
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 15rem;
+     }
+
+     .wif2 .container .content .image .img6 img 
+     {
+        width: 15rem;
+     }
+ 
+     .wif2 .container .content .image .img7
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 15rem;
+     }
+
+     .wif2 .container .content .image .img7 img 
+     {
+        width: 15rem;
+     }
+ 
+ 
+     .wif2 .container .content .image .img8
+     {
+        background-color: #fff;
+ 
+        box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+        width: 15rem;
+ 
+     }
+
+     .wif2 .container .content .image .img8 img 
+     {
+        width: 15rem;
+     }
+    
+}
+
+
+@media screen and (max-width: 400px) {
+
+    header
+    {
+        width: 25.5rem;
+    }
+
+    header .container .content1
+    {
+        position: absolute;
+        top: -0.6rem;
+        left: 0rem;
+    }
+
+    header .container .content1 h1 a
+    {
+        color: rgb(226, 130, 13);
+        list-style: none;
+        text-decoration: none;
+        font-style: italic;
+        font-size: 1.8rem;
+    }
+
+    header .container .content1 h1 a strong
+    {
+        color: rgb(219, 149, 161);
+        font-size: 2.5rem;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+    }
+ 
+    header .container .content2
+     {
+         position: absolute;
+         width: 25rem;
+         margin-left: 16rem;
+         top: -0.6rem;
+     }
+ 
+    header .container .content2 nav ul
+     {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 2.5rem;
+     }
+
+     header .container .content2
+     {
+         top: 4px;
+       left: -26rem;
+       position: absolute;
+       background-color: rgba(10, 0, 0, 0.2);
+       backdrop-filter: blur(8px);
+       text-align: center;
+       margin-right: 5rem;
+       width: 8rem;
+       height: 7rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: all 0.5s ease;
+     }
+
+     .menu .image {
+       position: absolute;
+       top: 3rem;
+       left: 23rem;
+       display: block;
+       cursor: pointer;
+    }
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+     .part1
+     {
+       margin-bottom: 28.2rem;
+       height: 30rem;
+     }
+
+     .part1 .container .image img
+     {
+        width: 26.5rem;
+       margin-left: -2rem;
+       height: 35rem;
+     }
+
+     .part1 .container .content
+     {
+      width: 25rem;
+      height: 20rem;
+      margin-left: 4rem;
+    }
+
+   .part1 .container .content .text
+    {
+      text-align: center;
+      width: 25rem;
+    }
+
+    .part1 .container .content .text h1
+    {
+        color: rgb(204, 130, 142);
+        font-size: 2rem;
+        font-style: normal;
+        width: 15rem;
+        margin-bottom: -1rem;
+    }
+
+    .part1 .container .content .text p
+    {
+        width: 21.9rem;
+        height: 3.2rem;
+        margin-left: -4rem;
+    }
+ 
+    .part2
+    {
+        width: 26.5rem;
+        margin-left: -2rem;
+        height: 160rem;
+        text-align: center;
+        background-color: rgb(99, 99, 86);
+        margin-bottom: -1.5rem;
+        margin-top: -24.8rem;
+    }
+
+    .part2 .container .content .image
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -1rem;
+        margin-bottom: -1.5rem;
+    }
+
+     .part2 .container .content .image img
+     {
+        width: 15rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -1rem;
+    }
+
+    .part2 .container .content .image .img3
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 16rem;
+    }
+
+
+
+    .part2 .container .content .image .img4
+    {
+        background-color: #fff;
+
+        box-shadow: 2px 2px 5px 5px #3d3838;
+
+        width: 16rem;
+
+    }
+
+    .part2 .container .content .image .img5
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img5 .text p
+    {
+        width: 13rem;
+        margin-bottom: 0rem;
+    }
+
+    .part2 .container .content .image .img6
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img7
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 16rem;
+    }
+
+
+    .part2 .container .content .image .img8
+    {
+       background-color: #fff;
+
+       box-shadow: 2px 2px 5px 5px #3d3838;
+
+       width: 16rem;
+
+    }
+ 
+    .part3
+    {
+        width: 26.5rem;
+        margin-left: -2rem;
+        height: 43rem;
+    }
+
+
+    .part3 .container .content .content1
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 3rem;
+      }
+ 
+     
+    footer
+    {
+        width: 26.5rem;
+        margin-left: -2rem;
+        height: 20rem;
+        text-align: center;
+    }
+     
+    .wif1
+     {
+       width: 60rem;
+       margin-bottom: 43.5rem;
+     }
+     .wif1 .container .image1 img
+     {  
+        height: 25.5rem;
+        width: 25.5rem;
+        margin-left: -1rem;
+     }
+
+     .wif1 .container .image2
+     {
+        display: none;
+     }
+        
+    .wif1 .container .image3
+    {
+        
+        display: none;
+    }
+ 
+    .man1
+     {
+       width: 60rem;
+       margin-bottom: 23.8rem;
+     }
+ 
+     .man1 .container
+     {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       gap: -2rem;
+    }
+ 
+     .man1 .container .image1 img
+     {
+        height: 20rem;
+        width: 25.5rem;
+        margin-left: -1rem;
+     }
+
+     .man1 .container .image2,.image3
+     {
+        display: none;
+     }
+ 
+     .man2
+     {
+        width: 26.5rem;
+         margin-left: -2rem;
+         height: 160rem;
+         text-align: center;
+         background-color: rgb(99, 99, 86);
+         margin-bottom: -1.5rem;
+         margin-top: -13.2rem;
+     }
+ 
+      .man2 .container .content .image
+      {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+      }
+ 
+      .man2 .container .content .image img
+      {
+         width: 15.9rem;
+         height: 15rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+     }
+ 
+     .man2 .container .content .image .img3
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .man2 .container .content .image .img3 img 
+     {
+        width: 16rem;
+     }
+ 
+ 
+ 
+     .man2 .container .content .image .img4
+     {
+         background-color: #fff;
+ 
+         box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+         width: 16rem;
+ 
+     }
+
+     .man2 .container .content .image .img4 img 
+     {
+        width: 16rem;
+     }
+ 
+     .man2 .container .content .image .img5
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .man2 .container .content .image .img5 img 
+     {
+        width: 16rem;
+     }
+ 
+     .man2 .container .content .image .img5 .text p
+     {
+         width: 14rem;
+         margin-bottom: 0rem;
+     }
+ 
+     .man2 .container .content .image .img6
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .man2 .container .content .image .img6 img 
+     {
+        width: 16rem;
+     }
+ 
+     .man2 .container .content .image .img7
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .man2 .container .content .image .img7 img 
+     {
+        width: 16rem;
+     }
+ 
+ 
+     .man2 .container .content .image .img8
+     {
+        background-color: #fff;
+ 
+        box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+        width: 16rem;
+ 
+     }
+
+     .man2 .container .content .image .img8 img 
+     {
+        width: 16rem;
+     }
+
+
+     .wif2
+     {
+        width: 26.5rem;
+         margin-left: -2rem;
+         height: 160rem;
+         text-align: center;
+         background-color: rgb(99, 99, 86);
+         margin-bottom: -1.5rem;
+         margin-top: -27.2rem;
+     }
+ 
+      .wif2 .container .content .image
+      {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: 1rem;
+      }
+ 
+      .wif2 .container .content .image img
+      {
+         width: 15.9rem;
+         height: 15rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+     }
+ 
+     .wif2 .container .content .image .img3
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+ 
+ 
+ 
+     .wif2 .container .content .image .img4
+     {
+         background-color: #fff;
+ 
+         box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+         width: 16rem;
+ 
+     }
+ 
+     .wif2 .container .content .image .img5
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .wif2 .container .content .image .img5 img
+     {
+        width: 16rem;
+     }
+ 
+     .wif2 .container .content .image .img5 .text p
+     {
+         width: 14rem;
+         margin-bottom: 0rem;
+     }
+ 
+     .wif2 .container .content .image .img6
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .wif2 .container .content .image .img6 img 
+     {
+        width: 16rem;
+     }
+ 
+     .wif2 .container .content .image .img7
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .wif2 .container .content .image .img8
+     {
+        background-color: #fff;
+ 
+        box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+        width: 16rem;
+ 
+     }
+    
+}
+
+
+@media screen and (max-width: 300px) {
+
+    header
+    {
+        width: 20rem;
+    }
+
+    header .container .content1
+    {
+        position: absolute;
+        top: -0.6rem;
+        left: -0.7rem;
+    }
+
+    header .container .content1 h1 a
+    {
+        color: rgb(226, 130, 13);
+        list-style: none;
+        text-decoration: none;
+        font-style: italic;
+        font-size: 1.3rem;
+        margin-top: -1rem;
+    }
+
+    header .container .content1 h1 a strong
+    {
+        color: rgb(219, 149, 161);
+        font-size: 2rem;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+
+    }
+ 
+    header .container .content2
+     {
+         position: absolute;
+         width: 25rem;
+         margin-left: 11.5rem;
+         top: -0.6rem;
+     }
+ 
+    header .container .content2 nav ul
+     {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 2.5rem;
+     }
+
+     .content2 .mobile-menu
+    {
+       margin-left: 0px;
+    }
+ 
+     header .container .content2
+     {
+       top: 4px;
+       left: -29.5rem;
+       position: absolute;
+       background-color: rgba(10, 0, 0, 0.2);
+       backdrop-filter: blur(8px);
+       text-align: center;
+       margin-right: 5rem;
+       width: 6rem;
+       height: 7rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transition: all 0.5s ease;
+     }
+
+     .menu .image {
+        position: absolute;
+        top: 3rem;
+        left: 17rem;
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu .image img
+    {
+      width: 1.2rem;
+      height: 1rem;
+      color: black;
+    }
+
+     .part1
+     {
+        margin-bottom: 31.5rem;
+        height: 30rem;
+     }
+
+     .part1 .container .image img
+    {
+       width: 21rem;
+       margin-left: -2rem;
+       height: 38rem;
+    }
+
+     .part1 .container .content
+     {
+      width: 25rem;
+      height: 20rem;
+      margin-left: 4rem;
+    }
+
+   .part1 .container .content .text
+    {
+      text-align: center;
+      width: 20rem;
+    }
+
+    .part1 .container .content .text h1
+    {
+      color: rgb(204, 130, 142);
+      font-size: 1.5rem;
+      font-style: normal;
+      width: 15rem;
+      margin-bottom: -1rem;
+      margin-left: -2.5rem;
+    }
+
+    .part1 .container .content .text p
+    {
+        width: 16rem;
+        height: 3.2rem;
+        margin-left: -4rem;
+    }
+ 
+    .part2
+    {
+        width: 21rem;
+        margin-left: -2rem;
+        height: 160rem;
+        text-align: center;
+        background-color: rgb(99, 99, 86);
+        margin-bottom: -1.5rem;
+        margin-top: -24.8rem;
+    }
+
+    .part2 .container .content .image
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -1rem;
+        margin-bottom: -1.5rem;
+    }
+
+     .part2 .container .content .image img
+     {
+        width: 15rem;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: -1rem;
+    }
+
+    .part2 .container .content .image .img3
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img3 img 
+    {
+        width: 16rem;
+    }
+
+
+
+    .part2 .container .content .image .img4
+    {
+        background-color: #fff;
+
+        box-shadow: 2px 2px 5px 5px #3d3838;
+
+        width: 16rem;
+
+    }
+
+    .part2 .container .content .image .img4 img 
+    {
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img5
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img5 img 
+    {
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img5 .text p
+    {
+        width: 13rem;
+        margin-bottom: 0rem;
+    }
+
+    .part2 .container .content .image .img6
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img6 img 
+    {
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img7
+    {
+        background-color: #fff;
+        box-shadow: 2px 2px 5px 5px #3d3838;
+        width: 16rem;
+    }
+
+    .part2 .container .content .image .img7 img 
+    {
+        width: 16rem;
+    }
+
+
+    .part2 .container .content .image .img8
+    {
+       background-color: #fff;
+
+       box-shadow: 2px 2px 5px 5px #3d3838;
+
+       width: 16rem;
+
+    }
+
+    .part2 .container .content .image .img8 img 
+    {
+        width: 16rem;
+    }
+ 
+    .part3
+    {
+        width: 21rem;
+        margin-left: -2rem;
+        height: 43rem;
+    }
+
+    .part3 .container h2
+    {
+        color: #0f0f0f;
+        width: 15rem;
+        padding-top: 0.5rem;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+
+
+    .part3 .container .content .content1
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .part3 .container .content .content1 input
+    {   
+        width: 15rem;
+    }
+
+    .part3 .container .content .content1 .message textarea
+    {
+       margin-left: -3rem;
+    }
+    
+    footer
+    {
+        width: 21rem;
+        margin-left: -2rem;
+        height: 20rem;
+        text-align: center;
+    }
+     
+    footer h1
+    {
+       color: #fff;
+       font-style: italic;
+       font-size: 1.5rem;
+    }
+
+    footer .text
+    {
+        font-size: 0.8rem;
+    }
+     
+    .wif1
+     {
+       width: 60rem;
+       margin-bottom: 37.9rem;
+     }
+     .wif1 .container .image1 img
+     {  
+        height: 20rem;
+        width: 20rem;
+        margin-left: -1rem;
+     }
+
+     .wif1 .container .image2
+     {
+        display: none;
+     }
+        
+    .wif1 .container .image3
+    {
+        
+        display: none;
+    }
+ 
+    .man1
+     {
+       width: 60rem;
+       margin-bottom: 23.8rem;
+     }
+ 
+     .man1 .container
+     {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       gap: -2rem;
+    }
+ 
+     .man1 .container .image1 img
+     {
+        height: 20rem;
+        width: 20rem;
+        margin-left: -1rem;
+     }
+
+     .man1 .container .image2,.image3
+     {
+        display: none;
+     }
+ 
+     .man2
+     {
+        width: 21rem;
+     }
+ 
+      .man2 .container .content .image
+      {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+      }
+ 
+      .man2 .container .content .image img
+      {
+         width: 15.9rem;
+         height: 15rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+     }
+ 
+     .man2 .container .content .image .img3
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .man2 .container .content .image .img3 img 
+     {
+        width: 16rem;
+     }
+ 
+ 
+ 
+     .man2 .container .content .image .img4
+     {
+         background-color: #fff;
+ 
+         box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+         width: 16rem;
+ 
+     }
+
+     .man2 .container .content .image .img4 img 
+     {
+        width: 16rem;
+     }
+ 
+     .man2 .container .content .image .img5
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .man2 .container .content .image .img5 img 
+     {
+        width: 16rem;
+     }
+ 
+     .man2 .container .content .image .img5 .text p
+     {
+         width: 14rem;
+         margin-bottom: 0rem;
+     }
+ 
+     .man2 .container .content .image .img6
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .man2 .container .content .image .img6 img 
+     {
+        width: 16rem;
+     }
+ 
+     .man2 .container .content .image .img7
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .man2 .container .content .image .img7 img 
+     {
+        width: 16rem;
+     }
+ 
+ 
+     .man2 .container .content .image .img8
+     {
+        background-color: #fff;
+ 
+        box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+        width: 16rem;
+ 
+     }
+
+     .man2 .container .content .image .img8 img 
+     {
+        width: 16rem;
+     }
+
+
+     .wif2
+     {
+        width: 21rem;
+     }
+ 
+      .wif2 .container .content .image
+      {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: 1rem;
+      }
+ 
+      .wif2 .container .content .image img
+      {
+         width: 15.9rem;
+         height: 15rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         gap: -1rem;
+     }
+ 
+     .wif2 .container .content .image .img3
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .wif2 .container .content .image .img3 img 
+     {
+        width: 16rem;
+     }
+ 
+ 
+ 
+     .wif2 .container .content .image .img4
+     {
+         background-color: #fff;
+ 
+         box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+         width: 16rem;
+ 
+     }
+
+     .wif2 .container .content .image .img4 img 
+     {
+        width: 16rem;
+     }
+ 
+     .wif2 .container .content .image .img5
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .wif2 .container .content .image .img5 img 
+     {
+        width: 16rem;
+     }
+ 
+     .wif2 .container .content .image .img5 .text p
+     {
+         width: 14rem;
+         margin-bottom: 0rem;
+     }
+ 
+     .wif2 .container .content .image .img6
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .wif2 .container .content .image .img6 img 
+     {
+        width: 16rem;
+     }
+ 
+     .wif2 .container .content .image .img7
+     {
+         background-color: #fff;
+         box-shadow: 2px 2px 5px 5px #3d3838;
+         width: 16rem;
+     }
+
+     .wif2 .container .content .image .img7 img 
+     {
+        width: 16rem;
+     }
+
+     .wif2 .container .content .image .img8
+     {
+        background-color: #fff;
+ 
+        box-shadow: 2px 2px 5px 5px #3d3838;
+ 
+        width: 16rem;
+ 
+     }
+
+     .wif2 .container .content .image .img8 img 
+     {
+        width: 16rem;
+     }
+    
+}
